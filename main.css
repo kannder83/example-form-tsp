@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 .contenedor {
@@ -8,6 +9,10 @@
   height: 100vh;
   display: flex;
   align-items: center;
+}
+
+form {
+  width: inherit;
 }
 
 .formulario {
@@ -26,7 +31,8 @@
 }
 
 .campos-division {
-  width: 600px;
+  width: 100%;
+  margin: auto;
   display: flex;
 }
 
