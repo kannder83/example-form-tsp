@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.contenedor {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.formulario {
+  width: 90%;
+  height: 300px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid black;
+}
+
+.formulario-campos {
+  width: 100%;
+  border: 1px solid black;
+}
+
+.campos-division {
+  width: 600px;
+  display: flex;
+}
+
+.formulario-campos .campos-division input {
+  width: 100%;
+  border-radius: 20px;
+  margin: 5px;
+  padding: 10px;
+}
