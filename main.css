@@ -41,6 +41,7 @@ form {
   border-radius: 20px;
   margin: 5px;
   padding: 10px;
+  outline: none;
 }
 
 .formulario-campos .campos-division datalist {
