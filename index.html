@@ -24,6 +24,36 @@
             <div class="campos-division">
               <input type="email" placeholder="Correo" />
             </div>
+            <div class="formuario-titulo">
+              <h2>Solicito información sobre:</h2>
+            </div>
+            <div class="campos-division">
+              <input list="cursos" />
+              <datalist id="cursos">
+                <option value="JavaScript"></option>
+                <option value="HTML"></option>
+                <option value="CSS"></option>
+              </datalist>
+            </div>
+            <div class="campos-division">
+              <textarea
+                name="mensaje"
+                id="mensaje"
+                cols="30"
+                rows="10"
+                placeholder="Escribe tu mensaje"
+              ></textarea>
+            </div>
+            <div class="formuario-titulo">
+              <h2>Casilla de verificación</h2>
+            </div>
+            <div class="campos-division">
+              <input class="check" type="checkbox" />
+              <p>Acepto la politica de tratamiento de información.</p>
+            </div>
+            <div class="campos-division">
+              <input class="boton" type="submit" value="Enviar Información" />
+            </div>
           </div>
         </form>
       </div>

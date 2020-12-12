@@ -12,12 +12,11 @@
 }
 
 form {
-  width: inherit;
+  width: 100%;
 }
 
 .formulario {
   width: 90%;
-  height: 300px;
   margin: 0 auto;
   display: flex;
   justify-content: space-around;
@@ -34,6 +33,7 @@ form {
   width: 100%;
   margin: auto;
   display: flex;
+  align-items: center;
 }
 
 .formulario-campos .campos-division input {
@@ -41,4 +41,39 @@ form {
   border-radius: 20px;
   margin: 5px;
   padding: 10px;
+}
+
+.formulario-campos .campos-division datalist {
+  width: 100%;
+  border-radius: 20px;
+  margin: 5px;
+  padding: 10px;
+}
+
+.formulario-campos .campos-division textarea {
+  width: 100%;
+  border-radius: 20px;
+  margin: 5px;
+  padding: 10px;
+}
+
+.formulario-campos .campos-division .check {
+  width: 10%;
+  height: 30px;
+}
+
+.formulario-campos .campos-division .boton {
+  border: 3px red solid;
+  color: white;
+  background-color: black;
+  border-radius: 0;
+  width: 20%;
+  transition: all 0.3s ease-in;
+}
+
+.formulario-campos .campos-division .boton:hover {
+  background: transparent;
+  color: black;
+  border: 3px grey solid;
+  cursor: pointer;
 }
